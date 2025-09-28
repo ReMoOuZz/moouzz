@@ -1,0 +1,5 @@
+{
+  "templates": [
+    { "id": "vanilla-web", "name": "Vanilla HTML/CSS/JS (3 folders)", "path": "vanilla-web" }
+  ]
+}
