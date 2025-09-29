@@ -1,12 +1,18 @@
-* {
-  box-sizing: border-box;
-}
+/* reset.css */
+@layer reset, components, pages, responsive;
 
-body {
-  margin: 0;
-  font-family: system-ui;
-}
+@import url(./reset/reset.css) layer(reset);
 
-main {
-  padding: 2rem;
-}
+/* components */
+
+@import url(./components/header.css) layer(components);
+@import url(./components/navbar.css) layer(components);
+@import url(./components/footer.css) layer(components);
+
+/* pages (add your files when they are created)*/
+
+/* @import url(...) layer(pages); */
+
+/* responsive */
+
+@import url(./responsive/responsive.css) layer(responsive);
