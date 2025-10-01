@@ -47,6 +47,7 @@ Run `moouzz --help` for the full option matrix.
 | Template     | Description                                            |
 |--------------|--------------------------------------------------------|
 | Vanilla Web  | [Read the guide](docs/templates/vanilla-web.md) — static web starter with HTML partials, CSS layers, and modular JS. |
+| React + Vite | [Read the guide](docs/templates/react-vite.md) — React 19 + Vite project prewired with Bootstrap and sample UI. |
 
 As new templates land, this table will grow with quick descriptions and deep-dive links.
 
