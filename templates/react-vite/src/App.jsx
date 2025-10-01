@@ -23,16 +23,16 @@ export default function App() {
 
       <main className="container py-5">
         <h1 className="display-5 mb-3">React + Vite + Bootstrap</h1>
-        <p className="lead">Bienvenue sur <strong>{{APP_NAME}}</strong>. Modifie <code>src/App.jsx</code> et sauvegarde.</p>
+        <p className="lead">Welcome on <strong>{{APP_NAME}}</strong>. Modify <code>src/App.jsx</code> and save.</p>
 
         <div className="row g-3">
           <div className="col-md-4">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Carte 1</h5>
-                <p className="card-text">Exemple de composant Bootstrap.</p>
+                <h5 className="card-title">Card 1</h5>
+                <p className="card-text">Bootstrap component exemple.</p>
                 <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#demoModal">
-                  Ouvrir la modal
+                  Open modal
                 </button>
               </div>
             </div>
@@ -40,8 +40,8 @@ export default function App() {
           <div className="col-md-4">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Carte 2</h5>
-                <p className="card-text">Personnalise les styles dans <code>src/index.css</code>.</p>
+                <h5 className="card-title">Card 2</h5>
+                <p className="card-text">Change style in <code>src/index.css</code>.</p>
                 <a className="btn btn-primary" href="#">Action</a>
               </div>
             </div>
@@ -57,10 +57,10 @@ export default function App() {
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
             </div>
             <div className="modal-body">
-              Hello depuis Bootstrap JS (bundle).
+              Hello from Bootstrap JS (bundle).
             </div>
             <div className="modal-footer">
-              <button className="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button className="btn btn-secondary" data-bs-dismiss="modal">close</button>
               <button className="btn btn-primary">OK</button>
             </div>
           </div>
