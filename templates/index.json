@@ -1,5 +1,14 @@
 {
   "templates": [
-    { "id": "vanilla-web", "name": "Vanilla HTML/CSS/JS (3 folders)", "path": "vanilla-web" }
+    { "id": "vanilla-web", "name": "Vanilla HTML/CSS/JS (3 folders)", "path": "vanilla-web" },
+    { "id": "react-vite", "name": "React + Vite + Bootsrap", "path": "react-vite" },
+    { "id": "vue-web", "name": "Vue (Vite)", "path": "vue-web" },
+    { "id": "svelte-web", "name": "Svelte (Vite)", "path": "svelte-web" },
+    { "id": "angular-web", "name": "Angular (CLI)", "path": "angular-web" },
+    { "id": "node-express-api", "name": "Node.js + Express API", "path": "node-express-api" },
+    { "id": "python-flask-api", "name": "Python + Flask API", "path": "python-flask-api" },
+    { "id": "django-web", "name": "Django Web App", "path": "django-web" },
+    { "id": "ruby-on-rails-web", "name": "Ruby on Rails Web App", "path": "ruby-on-rails-web" },
+    { "id": "php-laravel-web", "name": "PHP + Laravel Web App", "path": "php-laravel-web" }
   ]
 }
